@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    height: 50px;
+    /* line-height: 50px; */
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+.sandeep-image{
+    height: 400px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.text-content{
+    background-color: aquamarine;
+    height: 400px;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
